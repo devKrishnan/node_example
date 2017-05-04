@@ -21,7 +21,6 @@ app.post('/shotupload', upload.single('image'), function (req, res, next) {
     const responseJSON = {
       data: {
         id: "30970182",
-      //  url: {id:52635738,relativePath:"assets/images/2017/5/4/11493872523180-43120-dxv5bc.jpg",size:803955,domain:"http://assets.myntassets.com/",securedDomain:"https://assets.myntassets.com/","resolutionFormula":"h_($height),q_($qualityPercentage),w_($width)/v1/assets/images/2017/5/4/11493872523180-43120-dxv5bc.jpg","path":"http://assets.myntassets.com/assets/images/2017/5/4/11493872523180-43120-dxv5bc.jpg","storedUploaderType":CL,"servingUploaderType:"CL",expireAfter:1495600523200}
       },
       meta: {
         code: 200
